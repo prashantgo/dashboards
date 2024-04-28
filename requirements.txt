@@ -1,0 +1,3 @@
+streamlit
+streamlit_lottie
+plotly==5.21.0
