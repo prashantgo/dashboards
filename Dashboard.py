@@ -118,4 +118,6 @@ left_column.plotly_chart(fig_hourly_sales, use_container_width=True)
 right_column.plotly_chart(fig_product_sales, use_container_width=True)
 
 # Glimpse of Raw Data
+st.title(":open_book: Data Snippet")
+st.markdown("##")
 st.dataframe(df_selection[:10])
